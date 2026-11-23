@@ -1,0 +1,175 @@
+﻿Country,Data Center,Location,Capacity (MW),Latitude,Longitude,Source URL,Notes
+United States,Stargate I – Crusoe Abilene (Lancium Clean Campus),"Abilene, TX","1,200.0",32.4487,-99.7331,https://www.crusoe.ai/resources/newsroom/crusoes-contracted-ai-infrastructure-capacity-approaches-5-gigawatts-across-data-centers-and-cloud,1.2 GW campus (8 buildings) built for Oracle/OpenAI Stargate per Crusoe
+United States,Crusoe Abilene campus for Microsoft (under construction),"Abilene, TX",900.0,32.4487,-99.7331,https://www.crusoe.ai/resources/newsroom/crusoes-contracted-ai-infrastructure-capacity-approaches-5-gigawatts-across-data-centers-and-cloud,"Second Abilene campus for Microsoft, 900 MW per Crusoe (under construction)"
+United States,Vantage Frontier (Stargate – Oracle),"Shackelford County, TX","1,400.0",32.7237,-99.2973,https://ir.digitalbridge.com/news-releases/news-release-details/digitalbridge-backed-portfolio-company-vantage-data-centers,"1.4 GW, 10 buildings per DigitalBridge/Vantage release; linked to Oracle/OpenAI Stargate"
+United States,Stargate – Milam County (SB Energy),"Milam County, TX",,30.8463,-96.9769,https://openai.com/index/five-new-stargate-sites/,"Per OpenAI, Milam County + Lordstown together can scale to 1.5 GW; site split not stated"
+United States,Stargate – Lordstown (SoftBank),"Lordstown, OH",,41.1659,-80.8576,https://openai.com/index/five-new-stargate-sites/,"Per OpenAI, Milam County + Lordstown together can scale to 1.5 GW; site split not stated"
+United States,Stargate – Doña Ana County (Oracle),"Doña Ana County, NM",,31.8610,-106.6800,https://openai.com/index/five-new-stargate-sites/,"Per OpenAI, part of 5.5+ GW across three Oracle-developed sites; site split not stated"
+United States,Stargate – Wisconsin (Oracle / Vantage),Wisconsin,,43.3870,-87.8756,https://openai.com/index/five-new-stargate-sites/,"OpenAI update: Midwest site is in Wisconsin, developed by Oracle with Vantage; part of 5.5+ GW Oracle sites"
+United States,Meta Richland Parish Data Center (Hyperion),"Richland Parish, LA","5,000.0",32.4790,-91.6180,https://datacenters.atmeta.com/richland-parish-data-center/,5 GW compute capacity at full build-out per Meta
+United States,Meta Prometheus,"New Albany, OH",,40.0812,-82.8088,https://finance.yahoo.com/news/meta-ceo-mark-zuckerberg-touts-ai-build-out-says-company-will-spend-hundreds-of-billions-on-data-centers-164618678.html,MW left blank: Meta stated 1 GW supercluster (reported by Yahoo Finance); no official Meta MW page found
+United States,Microsoft Fairwater (Fairwater 1),"Mount Pleasant, WI",,42.7130,-87.9020,https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/,Microsoft does not publish MW for Fairwater sites
+United States,Microsoft Fairwater Atlanta,"Atlanta, GA",,33.7490,-84.3880,https://news.microsoft.com/source/features/ai/from-wisconsin-to-atlanta-microsoft-connects-datacenters-to-build-its-first-ai-superfactory/,Microsoft does not publish MW for Fairwater sites
+United States,AWS Project Rainier,"New Carlisle, IN",,41.7000,-86.5090,https://www.cnbc.com/2025/10/29/amazon-opens-11-billion-ai-data-center-project-rainier-in-indiana.html,MW left blank: Amazon has not published MW; CNBC reports ~2.2 GW at full build-out
+United States,xAI Colossus,"Memphis, TN",,35.0600,-90.1000,https://everydatacenter.com/colossus-2.html,MW left blank (unofficial source): tracker cites xAI SEC filing stating Colossus + Colossus II ~1.0 GW combined
+United States,xAI Colossus II,"Memphis, TN",,35.0600,-90.1000,https://everydatacenter.com/colossus-2.html,MW left blank (unofficial source): tracker cites xAI SEC filing stating Colossus + Colossus II ~1.0 GW combined
+United States,CyrusOne DFW7,"Fort Worth, TX",200.0,32.7555,-97.3308,https://www.cyrusone.com/resources/press-releases/cyrusone-and-eolian-partner-to-enable-rapid-deployment-of-200-megawatt-data-center-campus-in-fort-worth-texas,200 MW campus (DFW7) per CyrusOne
+United States,CyrusOne Freestone campus (Phase 1),"Fairfield (Freestone County), TX",380.0,31.7240,-96.1650,https://www.cyrusone.com/resources/press-releases/constellation-and-cyrusone-announce-agreement-to-support-new-data-center-facility-at-freestone-energy-center-in-texas,Phase 1 380 MW per CyrusOne; Phase 2 adds 380 MW
+South Korea,Digital Realty ICN10 (Digital Seoul 1),"Sangam DMC, Mapo-gu, Seoul",12.0,37.5780,126.8890,https://www.prnewswire.com/news-releases/digital-realty-breaks-ground-on-first-facility-in-south-korea-301078320.html,12 MW IT load per Digital Realty release
+South Korea,"Digital Realty ICN11 (Digital Seoul 2, planned)","Gimpo, Gyeonggi",,37.6153,126.7156,https://www.prnewswire.com/news-releases/digital-realty-breaks-ground-on-first-facility-in-south-korea-301078320.html,Announced by Digital Realty (64 MW per trade press); not yet listed on Digital Realty site — MW left blank
+South Korea,Naver GAK Sejong,Sejong,,36.4800,127.2890,https://w.media/south-korean-online-platform-naver-unveils-hyperscale-data-center-in-sejong/,MW left blank: trade press reports 270 MW max power intake at full build-out (~47 MW as of Oct-2025); no official MW page found
+South Korea,Naver GAK Chuncheon,"Chuncheon, Gangwon",,37.8813,127.7298,https://www.thelec.net/news/articleView.html?idxno=15602,MW left blank: trade press (The Elec) reports ~40 MW power intake
+South Korea,Equinix SL1,Seoul,,37.5665,126.9780,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,AirTrunk TOK1,"Inzai, Chiba (East Tokyo)",300.0,35.8320,140.1460,https://www.macquarie.com/assets/macq/impact/esg/whs-case-study-air-trunk.pdf,"Designed to scale to 300+ MW (AirTrunk, via Macquarie case study Jun-2024)"
+Japan,AirTrunk TOK2,West Tokyo,110.0,35.7000,139.4000,https://airtrunk.com/airtrunk-opens-second-tokyo-hyperscale-data-centre-to-accelerate-japans-digital-future/,Scalable to 110+ MW per AirTrunk
+Japan,AirTrunk OSK1,Osaka,,34.6937,135.5023,https://airtrunk.com/airtrunk-opens-second-tokyo-hyperscale-data-centre-to-accelerate-japans-digital-future/,AirTrunk Osaka campus; MW not stated in official sources found
+Japan,AirTrunk OSK2 (planned),Osaka,100.0,34.6937,135.5023,https://airtrunk.com/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/,Up to 100 MW IT load per AirTrunk release
+Japan,NTT Keihanna OSK11,"Seika, Kyoto",30.0,34.7600,135.7860,https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/asia-pacific/keihanna-osk11-data-center,30 MW IT load per NTT
+Japan,NTT GDC Japan / TEPCO PG JV (planned),"Inzai-Shiroi, Chiba",50.0,35.7920,140.0800,https://www.nttdata.com/global/en/news/press-release/2023/december/ntt-global-data-centers-japan-and-tepco-power-grid-to-establish-a-new-company,Planned IT load per NTT DATA/TEPCO JV release (first capacity 2H FY2026)
+Japan,MC Digital Realty KIX campus (KIX10-KIX13),"Ibaraki, Osaka",70.0,34.8164,135.5683,https://www.mc-digitalrealty.com/3031356,KIX campus total 70+ MW IT incl. KIX10-13 per MC Digital Realty
+Japan,MC Digital Realty KIX13,"Ibaraki, Osaka",21.0,34.8164,135.5683,https://www.mc-digitalrealty.com/3031356,Up to 21 MW IT per MC Digital Realty release
+Japan,MC Digital Realty KIX15 (under construction),"Ibaraki, Osaka",24.0,34.8164,135.5683,https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-commences-construction-kix15-data-center,24 MW per Digital Realty release (opening Q4 2028)
+Japan,MC Digital Realty NRT10,"Inzai, Chiba",,35.8320,140.1460,https://finviz.com/news/343029/digital-realty-opens-nrt14-data-center-third-facility-at-nrt-campus-in-japan,NRT campus (NRT10/12/14) total approaching ~100 MW per Digital Realty release; per-building MW not stated
+Japan,MC Digital Realty NRT12,"Inzai, Chiba",,35.8320,140.1460,https://finviz.com/news/343029/digital-realty-opens-nrt14-data-center-third-facility-at-nrt-campus-in-japan,NRT campus (NRT10/12/14) total approaching ~100 MW per Digital Realty release; per-building MW not stated
+Japan,MC Digital Realty NRT14,"Inzai, Chiba",,35.8320,140.1460,https://finviz.com/news/343029/digital-realty-opens-nrt14-data-center-third-facility-at-nrt-campus-in-japan,NRT campus (NRT10/12/14) total approaching ~100 MW per Digital Realty release; per-building MW not stated
+Japan,NEXTDC TK1,Tokyo,30.0,35.6762,139.7650,https://www.nextdc.com/interconnectivity/connectivity,Target 30 MW per NEXTDC
+Japan,Equinix OS1,Osaka,,34.6937,135.5023,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix OS2x (xScale),Osaka,,34.6937,135.5023,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix OS3,Osaka,,34.6937,135.5023,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix OS99,Osaka,,34.6937,135.5023,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY1,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY2,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY3,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY4,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY5,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY6,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY7,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY8,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY9,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY10,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY11,Tokyo,,35.6762,139.7650,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY12x (xScale),Tokyo/Chiba,,35.6500,140.0500,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Japan,Equinix TY13x (xScale),Tokyo/Chiba,,35.6500,140.0500,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+China,GDS data centers – Shanghai,Shanghai,,31.2304,121.4737,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,GDS data centers – Beijing,Beijing,,39.9042,116.4074,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,GDS data centers – Kunshan,"Kunshan, Jiangsu",,31.3850,120.9810,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,GDS data centers – Langfang,"Langfang, Hebei",,39.5380,116.6838,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,GDS data centers – Zhangbei (Zhangjiakou),"Zhangbei (Zhangjiakou), Hebei",,41.1590,114.7200,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,GDS data centers – Changshu,"Changshu, Jiangsu",,31.6540,120.7520,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,GDS data centers – Chongqing,Chongqing,,29.5630,106.5516,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,GDS data centers – Shenzhen,"Shenzhen, Guangdong",,22.5431,114.0579,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,GDS data centers – Ulanqab,"Ulanqab, Inner Mongolia",,41.0340,113.1330,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,GDS data centers – Chengdu,"Chengdu, Sichuan",,30.5728,104.0668,https://www.gds-services.com/en/about_11.html,City cluster per GDS company milestones page; GDS does not publish facility-level MW publicly
+China,Equinix SH1,Shanghai,,31.2304,121.4737,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+China,Equinix SH2,Shanghai,,31.2304,121.4737,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+China,Equinix SH3,Shanghai,,31.2304,121.4737,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+China,Equinix SH5,Shanghai,,31.2304,121.4737,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+China,Equinix SH6,Shanghai,,31.2304,121.4737,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Hong Kong SAR,SUNeVision MEGA IDC,Tseung Kwan O,180.0,22.3080,114.2600,https://www.shkp.com/en-US/media/press-releases/20250327,180+ MW power capacity at full 3-phase build-out (Phase 1 ~50 MW) per SHKP/SUNeVision release
+Hong Kong SAR,SUNeVision MEGA Plus,Tseung Kwan O,24.0,22.3080,114.2600,https://www.sunevision.com/index.php/press-centre/press-release/pressrelease/56,24+ MW IT load per SUNeVision release
+Hong Kong SAR,SUNeVision MEGA-i,Chai Wan,,22.2650,114.2370,https://www.newdc.sunevision.com/,Listed on SUNeVision site; MW not stated
+Hong Kong SAR,SUNeVision MEGA Gateway,Tsuen Wan,,22.3710,114.1140,https://www.newdc.sunevision.com/,Listed on SUNeVision site; MW not stated
+Hong Kong SAR,SUNeVision MEGA Two,Fo Tan,,22.3950,114.1920,https://europeanbusinessmagazine.com/sunevision-initiates-mega-idc-phase-two-development/,Named in SUNeVision press release (republished); MW not stated
+Hong Kong SAR,AirTrunk HKG1,Tsing Yi (near Tsuen Wan),20.0,22.3500,114.1050,https://airtrunk.com/airtrunks-asia-pacific-footprint-expands-with-launch-of-its-first-hyperscale-data-centre-in-hong-kong/,Scalable 20+ MW per AirTrunk release
+Hong Kong SAR,Digital Realty HKG10,Tseung Kwan O,,22.3080,114.2600,https://www.digitalrealty.com/data-centers/asia-pacific/hong-kong/hkg10,Digital Realty facility page; MW not stated
+Hong Kong SAR,Equinix HK1,Hong Kong,,22.2800,114.1600,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Hong Kong SAR,Equinix HK2,Hong Kong,,22.2800,114.1600,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Hong Kong SAR,Equinix HK3,Hong Kong,,22.2800,114.1600,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Hong Kong SAR,Equinix HK4,Hong Kong,,22.2800,114.1600,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Hong Kong SAR,Equinix HK5,Hong Kong,,22.2800,114.1600,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Singapore,Digital Realty SIN10,"Jurong East, Singapore",,1.3330,103.7420,https://www.digitalrealty.com/resources/blog/singapore-data-centers-ai-connectivity-sustainability,Digital Realty states 70+ MW IT load across SIN10/11/12 combined; per-site MW not published
+Singapore,Digital Realty SIN11 (Digital Loyang I),"Loyang, Singapore",,1.3750,103.9700,https://www.digitalrealty.com/resources/blog/singapore-data-centers-ai-connectivity-sustainability,Digital Realty states 70+ MW IT load across SIN10/11/12 combined; per-site MW not published
+Singapore,Digital Realty SIN12 (Digital Loyang II),"Loyang, Singapore",,1.3750,103.9700,https://www.digitalrealty.com/resources/blog/singapore-data-centers-ai-connectivity-sustainability,Digital Realty states 70+ MW IT load across SIN10/11/12 combined; per-site MW not published
+Singapore,Keppel DC Singapore 1,Singapore,,1.2900,103.8500,https://links.sgx.com/1.0.0/corporate-announcements/174HI5HW051D47VW/869907_Acquisition%20of%20Remaining%20Interests%20in%20SGP%203%20and%204.pdf,Keppel DC REIT portfolio asset; MW per site not published
+Singapore,Keppel DC Singapore 2,Singapore,,1.2900,103.8500,https://links.sgx.com/1.0.0/corporate-announcements/174HI5HW051D47VW/869907_Acquisition%20of%20Remaining%20Interests%20in%20SGP%203%20and%204.pdf,Keppel DC REIT portfolio asset; MW per site not published
+Singapore,Keppel DC Singapore 3,Singapore,,1.2900,103.8500,https://links.sgx.com/1.0.0/corporate-announcements/174HI5HW051D47VW/869907_Acquisition%20of%20Remaining%20Interests%20in%20SGP%203%20and%204.pdf,Keppel DC REIT portfolio asset; MW per site not published
+Singapore,Keppel DC Singapore 4,Singapore,,1.2900,103.8500,https://links.sgx.com/1.0.0/corporate-announcements/174HI5HW051D47VW/869907_Acquisition%20of%20Remaining%20Interests%20in%20SGP%203%20and%204.pdf,Keppel DC REIT portfolio asset; MW per site not published
+Singapore,Keppel DC Singapore 5,"Jurong, Singapore",,1.3340,103.7150,https://www.keppeldcreit.com/en/file/investor-relations/publications/annual-report/kdcr-ar-2023.pdf,Keppel DC REIT portfolio asset; MW per site not published
+Singapore,Keppel DC Singapore 7,Singapore,,1.2900,103.8500,https://links.sgx.com/1.0.0/corporate-announcements/174HI5HW051D47VW/869907_Acquisition%20of%20Remaining%20Interests%20in%20SGP%203%20and%204.pdf,Keppel DC REIT portfolio asset; MW per site not published
+Singapore,Keppel DC Singapore 8,Singapore,,1.2900,103.8500,https://links.sgx.com/1.0.0/corporate-announcements/174HI5HW051D47VW/869907_Acquisition%20of%20Remaining%20Interests%20in%20SGP%203%20and%204.pdf,Keppel DC REIT portfolio asset; MW per site not published
+Singapore,STT Loyang,"Loyang, Singapore",30.0,1.3750,103.9700,https://www.sttelemediagdc.com/newsroom/ST-Telemedia-Global-Data-Centres-to-Build-Its-Largest-Singapore-Facility-in-Loyang,IT load 30+ MW per STT GDC 2018 release (shown as minimum)
+Singapore,STT Defu,"Defu, Singapore",,1.3550,103.8900,https://www.sttgdc.com/sg-en/newsroom/ST-Telemedia-Global-Data-Centres-Readies-for-its-Next-Growth-Phase-in-Singapore,Per STT GDC 2017 release; MW not published
+Singapore,STT MediaHub,Singapore,,1.2900,103.8500,https://www.sttgdc.com/sg-en/newsroom/ST-Telemedia-Global-Data-Centres-Readies-for-its-Next-Growth-Phase-in-Singapore,Per STT GDC 2017 release; MW not published
+Singapore,STT Tai Seng (3 facilities),"Tai Seng / Jurong, Singapore",,1.3360,103.8880,https://www.sttgdc.com/sg-en/newsroom/ST-Telemedia-Global-Data-Centres-Readies-for-its-Next-Growth-Phase-in-Singapore,Per STT GDC 2017 release; MW not published
+Singapore,AirTrunk SGP1,"Loyang, Singapore",78.0,1.3750,103.9700,https://www.macquarie.com/assets/macq/impact/esg/whs-case-study-air-trunk.pdf,"78+ MW per AirTrunk case study (Macquarie, data as at Jun-2024)"
+Singapore,Equinix SG1,Singapore,,1.2900,103.8500,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Singapore,Equinix SG2,Singapore,,1.2900,103.8500,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Singapore,Equinix SG3,Singapore,,1.2900,103.8500,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Singapore,Equinix SG4,Singapore,,1.2900,103.8500,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Singapore,Equinix SG5,Singapore,,1.2900,103.8500,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+India,Yotta D1,"Greater Noida, Uttar Pradesh",28.8,28.4744,77.5040,https://yotta.com/press-releases/yotta-launches-north-indias-first-hyperscale-data-center-yotta-d1-in-greater-noida/,IT load per Yotta release
+India,"Yotta Greater Noida Data Center Park (6 buildings, total)","Greater Noida, Uttar Pradesh",160.0,28.4744,77.5040,https://yotta.com/press-releases/yotta-launches-north-indias-first-hyperscale-data-center-yotta-d1-in-greater-noida/,Park IT power capacity at full build-out per Yotta
+India,AdaniConneX Chennai 1,"Siruseri, Chennai",33.0,12.8300,80.2200,https://connect.adani.com/annual_report/2025/ael/data-center.html,33 MW IT load at full capacity (17 MW Phase 1) per Adani Enterprises annual report
+India,AdaniConneX Noida (Phase 1),"Noida, Uttar Pradesh",10.0,28.5355,77.3910,https://connect.adani.com/annual_report/2025/ael/data-center.html,Phase 1 live capacity per Adani Enterprises annual report
+India,AdaniConneX Hyderabad (Phase 1),"Hyderabad, Telangana",9.6,17.3850,78.4867,https://connect.adani.com/annual_report/2025/ael/data-center.html,Phase 1 live capacity per Adani Enterprises annual report
+India,AdaniConneX Navi Mumbai (upcoming),"Navi Mumbai, Maharashtra",,19.0330,73.0297,https://www.adanienterprises.com/businesses/infrastructure/data-centre,Listed by Adani Enterprises as upcoming; MW not stated on page
+India,AdaniConneX Pune (upcoming),"Pune, Maharashtra",,18.5204,73.8567,https://www.adanienterprises.com/businesses/infrastructure/data-centre,Listed by Adani Enterprises as upcoming; MW not stated on page
+India,NTT NAV1A (NAV1 campus),"Mahape, Navi Mumbai",,19.1140,73.0300,https://w.media/ntt-launches-500-mw-dc-campus-in-mumbai/,MW left blank: only trade press (w.media) reports ~30 MW IT for NAV1A; not from an official NTT page
+India,NTT NAV2 campus,Navi Mumbai,,19.0330,73.0297,https://w.media/ntt-launches-500-mw-dc-campus-in-mumbai/,MW left blank: trade press (w.media) reports 336 MW IT / 500 MW power; not from an official NTT page
+India,Equinix MB1,Mumbai,,19.0760,72.8777,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+India,Equinix MB2,Mumbai,,19.0760,72.8777,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Malaysia,AirTrunk JHB1,"Johor Bahru, Johor",150.0,1.4927,103.7414,https://airtrunk.com/location/jhb1-johor/,Campus total capacity 150+ MW per AirTrunk
+Malaysia,Vantage KUL1,"Cyberjaya, Selangor",31.0,2.9213,101.6559,https://vantage-dc.com/news/vantage-data-centers-breaks-ground-on-256mw-cyberjaya-campus/,"KUL1 = 287 MW combined less 256 MW KUL2, per Vantage release (full build-out)"
+Malaysia,Vantage KUL2,"Cyberjaya, Selangor",256.0,2.9213,101.6559,https://vantage-dc.com/news/vantage-data-centers-breaks-ground-on-256mw-cyberjaya-campus/,IT capacity at full build-out per Vantage
+Malaysia,Bridge Data Centres MY01 & MY02,"Cyberjaya, Selangor",98.0,2.9213,101.6559,https://www.bridgedatacentres.com/locations/malaysia/,Total IT capacity per Bridge Data Centres
+Malaysia,Bridge Data Centres MY03,"Bukit Jalil, Kuala Lumpur",48.0,3.0580,101.6900,https://www.bridgedatacentres.com/locations/malaysia/,Total IT capacity per Bridge Data Centres
+Malaysia,Bridge Data Centres MY06,"Sedenak, Kulai, Johor",508.0,1.7010,103.4125,https://www.bridgedatacentres.com/locations/malaysia/,Total IT capacity per Bridge Data Centres
+Malaysia,Bridge Data Centres MY07,"Ulu Tiram, Johor",374.0,1.6000,103.8200,https://www.bridgedatacentres.com/locations/malaysia/,Total IT capacity per Bridge Data Centres
+Malaysia,NEXTDC KL1,Kuala Lumpur,65.0,3.1390,101.6869,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity 65+ MW per NEXTDC
+Malaysia,YTL Green Data Center Park,"Kulai, Johor",500.0,1.6630,103.6000,https://www.ytl.com/press-releases/ytl-green-data-center-park-launches-in-johor-the-first-integrated-data-center-park-powered-by-renewable-solar-energy-in-malaysia-2/,Planned park capacity per YTL 2022 launch release (first phase 72 MW)
+Malaysia,Keppel Basis Bay Data Centre,"Cyberjaya, Selangor",,2.9213,101.6559,https://links.sgx.com/1.0.0/corporate-announcements/174HI5HW051D47VW/869907_Acquisition%20of%20Remaining%20Interests%20in%20SGP%203%20and%204.pdf,Keppel DC REIT asset; MW not published
+Australia,NEXTDC S1,"Macquarie Park, Sydney",16.0,-33.7760,151.1200,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC S2,"Macquarie Park, Sydney",30.0,-33.7760,151.1200,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC S3,"Artarmon, Sydney",80.0,-33.8100,151.1850,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC S4 (in development),"Horsley Park, Sydney",365.0,-33.8430,150.8500,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC M1,"Port Melbourne, Melbourne",16.0,-37.8350,144.9200,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC M2,"Tullamarine, Melbourne",120.0,-37.7000,144.8800,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC M3,"West Footscray, Melbourne",225.0,-37.8000,144.8700,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC M4 (in planning),"Port Melbourne, Melbourne",150.0,-37.8350,144.9200,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC GE1,Geelong,4.0,-38.1499,144.3617,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC B1,"Brisbane CBD, Brisbane",2.25,-27.4700,153.0250,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC B2,"Fortitude Valley, Brisbane",12.0,-27.4570,153.0350,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC GC1,Gold Coast,6.0,-28.0167,153.4000,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC P1,"Malaga, Perth",10.0,-31.8600,115.8900,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC P2,"Perth CBD, Perth",20.0,-31.9523,115.8613,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC PH1,Port Hedland,1.0,-20.3100,118.5800,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC A1,"Adelaide CBD, Adelaide",5.0,-34.9285,138.6007,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC C1,"Bruce, Canberra",4.4,-35.2400,149.0900,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC D1,"Darwin CBD, Darwin",1.0,-12.4634,130.8456,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC D2,"Darwin CBD, Darwin",6.0,-12.4634,130.8456,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,NEXTDC SC1,"Maroochydore, Sunshine Coast",1.0,-26.6600,153.0900,https://www.nextdc.com/interconnectivity/connectivity,Target IT capacity per NEXTDC ('+' figures shown as minimum)
+Australia,AirTrunk SYD1,Western Sydney,121.0,-33.8000,150.9200,https://airtrunk.com/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/,Campus capacity MW+ (design/planned) per AirTrunk Dec-2025 release
+Australia,AirTrunk SYD2,Sydney,158.0,-33.8688,151.2093,https://airtrunk.com/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/,Campus capacity MW+ (design/planned) per AirTrunk Dec-2025 release
+Australia,AirTrunk SYD3,Sydney,330.0,-33.8688,151.2093,https://airtrunk.com/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/,Campus capacity MW+ (design/planned) per AirTrunk Dec-2025 release
+Australia,AirTrunk MEL1,Western Melbourne,276.0,-37.7900,144.7700,https://airtrunk.com/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/,Campus capacity MW+ (design/planned) per AirTrunk Dec-2025 release
+Australia,AirTrunk MEL2 (planned),Melbourne,354.0,-37.8136,144.9631,https://airtrunk.com/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/,Campus capacity MW+ (design/planned) per AirTrunk Dec-2025 release
+Australia,CDC EC1,"Eastern Creek, Sydney",7.0,-33.8000,150.8500,https://cdc-website.azurewebsites.net/eastern-creek-campus/,Per CDC campus page; may predate later expansions
+Australia,CDC EC2,"Eastern Creek, Sydney",13.0,-33.8000,150.8500,https://cdc-website.azurewebsites.net/eastern-creek-campus/,Per CDC campus page; may predate later expansions
+Australia,CDC EC3,"Eastern Creek, Sydney",28.0,-33.8000,150.8500,https://cdc-website.azurewebsites.net/eastern-creek-campus/,Per CDC campus page; may predate later expansions
+Australia,CDC EC4,"Eastern Creek, Sydney",37.0,-33.8000,150.8500,https://cdc-website.azurewebsites.net/eastern-creek-campus/,Per CDC campus page; may predate later expansions
+Australia,CDC Hume Campus One,"Hume, Canberra",21.0,-35.3800,149.1600,https://infratil.com/news/infratil-2019-sydney-investor-day/2019-sydney-investor-day-cdc-data-centres/,Installed capacity per Infratil (CDC shareholder) Oct-2019 investor presentation
+Australia,CDC Fyshwick Campus One,"Fyshwick, Canberra",39.0,-35.3300,149.1700,https://infratil.com/news/infratil-2019-sydney-investor-day/2019-sydney-investor-day-cdc-data-centres/,Installed capacity per Infratil (CDC shareholder) Oct-2019 investor presentation
+Australia,CDC F3 (Fyshwick Campus Two),"Beard, Canberra",30.0,-35.3400,149.2100,https://cdc-website.azurewebsites.net/fyshwick-campus-two/,Total capacity per CDC page
+Australia,Macquarie DC IC1,"Sydney CBD, Sydney",2.0,-33.8700,151.2070,https://www.macquariedatacentres.com/data-centres/sydney/,IT load per Macquarie Data Centres
+Australia,Macquarie DC IC2,"Macquarie Park, Sydney",6.0,-33.7760,151.1200,https://www.macquariedatacentres.com/data-centres/sydney/macquarie-park-campus/,IT load per Macquarie Data Centres
+Australia,Macquarie DC IC3 East,"Macquarie Park, Sydney",12.0,-33.7760,151.1200,https://www.macquariedatacentres.com/data-centres/sydney/macquarie-park-campus/,IT load per Macquarie Data Centres
+Australia,Macquarie DC IC3 Super West (under construction),"Macquarie Park, Sydney",47.0,-33.7760,151.1200,https://www.macquariedatacentres.com/data-centres/sydney/macquarie-park-campus/,IT load per Macquarie Data Centres
+Australia,Macquarie DC IC4 & IC5 (campus),Canberra,3.0,-35.2809,149.1300,https://www.macquariedatacentres.com/data-centres/,IT load per Macquarie Data Centres
+Australia,Equinix AE1,Adelaide,,-34.9285,138.6007,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix BR1,Brisbane,,-27.4698,153.0251,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix CA1,Canberra,,-35.2809,149.1300,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix ME1,Melbourne,,-37.8136,144.9631,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix ME2,Melbourne,,-37.8136,144.9631,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix ME4,Melbourne,,-37.8136,144.9631,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix ME5,Melbourne,,-37.8136,144.9631,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix PE1,Perth,,-31.9523,115.8613,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix PE2,Perth,,-31.9523,115.8613,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix SY1,Sydney,,-33.8688,151.2093,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix SY2,Sydney,,-33.8688,151.2093,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix SY3,Sydney,,-33.8688,151.2093,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix SY4,Sydney,,-33.8688,151.2093,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix SY5,Sydney,,-33.8688,151.2093,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix SY6,Sydney,,-33.8688,151.2093,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix SY7,Wollongong,,-34.4278,150.8931,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix SY8,Sydney,,-33.8688,151.2093,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site
+Australia,Equinix SY9x (xScale),Sydney,,-33.8688,151.2093,https://docs.equinix.com/colocation/availability/,Equinix does not publish MW per site

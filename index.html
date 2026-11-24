@@ -10,13 +10,13 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/topojson-client@3"></script>
 <style>
-:root{--navy:#0F2747;--blue:#A9BFDA;--sel:#6F8FBD;--grey:#E4E4E4}
+:root{--navy:#0F2747;--red:#FE3D28;--blue:#A9BFDA;--sel:#6F8FBD;--grey:#E4E4E4}
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--navy);background:#fff}
 #map,.leaflet-container{position:absolute;inset:0;background:#fff}
 #legend{position:absolute;top:calc(12px + env(safe-area-inset-top));left:14px;z-index:500;font-size:13px;background:rgba(255,255,255,.85);padding:6px 10px}
 #legend div{display:flex;align-items:center;gap:8px;margin:4px 0}
-.dot{width:12px;height:12px;border-radius:50%;display:inline-block}
+.dot{width:12px;height:12px;border-radius:50%;display:inline-block;flex:0 0 auto}
 #chips{position:absolute;bottom:calc(14px + env(safe-area-inset-bottom));left:0;right:0;z-index:500;display:flex;gap:8px;overflow-x:auto;padding:0 14px}
 .chip{flex:0 0 auto;border:1px solid var(--navy);background:#fff;color:var(--navy);padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer}
 .chip.on{background:var(--navy);color:#fff}
@@ -34,7 +34,7 @@ html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Seg
 .row{font-size:14px;line-height:1.5;margin:5px 0}
 .rule2{border-bottom:1px solid rgba(15,39,71,.5);margin-top:12px}
 .close{position:absolute;top:6px;right:8px;z-index:3;border:none;background:none;font-size:24px;color:var(--navy);cursor:pointer}
-.item{display:block;width:100%;text-align:left;background:#fff;border:none;border-bottom:1px solid #e3e8ef;padding:10px 0;font-size:14px;color:var(--navy);cursor:pointer}
+.item{display:flex;align-items:center;gap:8px;width:100%;text-align:left;background:#fff;border:none;border-bottom:1px solid #e3e8ef;padding:10px 0;font-size:14px;color:var(--navy);cursor:pointer}
 label{display:block;font-size:12px;font-weight:600;margin-top:10px}
 input,textarea{width:100%;padding:8px;border:1px solid #C9D3E0;font:inherit;font-size:16px}
 .btn{margin-top:14px;margin-right:6px;background:var(--navy);color:#fff;border:1px solid var(--navy);padding:10px 16px;font-weight:600;font-size:14px;cursor:pointer}
@@ -47,6 +47,8 @@ a{color:var(--navy)}
 <div id="legend">
   <div><span class="dot" style="background:#E4E4E4"></span>No data centers tracked</div>
   <div><span class="dot" style="background:#A9BFDA"></span>Countries with tracked data centers</div>
+  <div><span class="dot" style="background:#FE3D28"></span>Pin: MW capacity disclosed</div>
+  <div><span class="dot" style="background:#0F2747"></span>Pin: MW not disclosed</div>
 </div>
 <div id="stat"><div class="goldrule"></div><div class="big" id="s1"></div><div class="sub" id="s2"></div></div>
 <div id="banner">Tap the map to place the pin</div>
@@ -55,6 +57,7 @@ a{color:var(--navy)}
 <div id="ov"></div>
 <script>
 const CSV_URL='datacenters.csv';
+const RED='#FE3D28',NAVY='#0F2747';
 const NAME_MAP={"United States of America":"United States","South Korea":"South Korea","S. Korea":"South Korea","Korea":"South Korea","Hong Kong":"Hong Kong SAR"};
 const map=L.map('map',{zoomControl:false,worldCopyJump:true,minZoom:2,attributionControl:false}).setView([20,115],3);
 L.control.zoom({position:'topright'}).addTo(map);
@@ -76,13 +79,23 @@ function parseCSV(t){const rows=[];let r=[],f='',q=false;
   else f+=c}
  if(f||r.length){r.push(f);rows.push(r)}return rows}
 
-function pinIcon(n){return L.divIcon({className:'',iconSize:[28,36],iconAnchor:[14,36],
- html:`<svg width="28" height="36" viewBox="0 0 26 34"><path d="M13 1C6.4 1 1 6.3 1 12.8 1 21.6 13 33 13 33s12-11.4 12-20.2C25 6.3 19.6 1 13 1z" fill="#0F2747"/>${n>1?`<text x="13" y="16.5" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">${n}</text>`:'<circle cx="13" cy="12.5" r="5" fill="#fff"/>'}</svg>`})}
+function pinIcon(n,disclosed){const fill=disclosed?RED:NAVY;return L.divIcon({className:'',iconSize:[28,36],iconAnchor:[14,36],
+ html:`<svg width="28" height="36" viewBox="0 0 26 34"><path d="M13 1C6.4 1 1 6.3 1 12.8 1 21.6 13 33 13 33s12-11.4 12-20.2C25 6.3 19.6 1 13 1z" fill="${fill}"/>${n>1?`<text x="13" y="16.5" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">${n}</text>`:'<circle cx="13" cy="12.5" r="5" fill="#fff"/>'}</svg>`})}
+
+/* Fix shapes that cross the 180° date line (Russia, Fiji, etc.) so they don't draw as stripes */
+function fixRing(ring){const xs=ring.map(p=>p[0]);
+ return (Math.max(...xs)-Math.min(...xs)>180)?ring.map(([x,y])=>[x<0?x+360:x,y]):ring}
+function fixGeom(g){if(!g)return g;
+ if(g.type==='Polygon')g.coordinates=g.coordinates.map(fixRing);
+ else if(g.type==='MultiPolygon')g.coordinates=g.coordinates.map(p=>p.map(fixRing));
+ return g}
 
 function restyle(){const has=hasData();
  for(const n in countryLayers)countryLayers[n].forEach(l=>l.setStyle({fillColor:n===selected?'#6F8FBD':has.has(n)?'#A9BFDA':'#E4E4E4'}))}
 
 function drawCountries(fc){
+ fc.features=fc.features.filter(f=>f.properties.name!=='Antarctica');
+ fc.features.forEach(f=>fixGeom(f.geometry));
  L.geoJSON(fc,{style:{color:'#fff',weight:.8,fillColor:'#E4E4E4',fillOpacity:1},
   onEachFeature:(f,l)=>{const n=NAME_MAP[f.properties.name]||f.properties.name;
    (countryLayers[n]=countryLayers[n]||[]).push(l);
@@ -102,7 +115,8 @@ function selectCountry(n){
  const list=all().filter(d=>d.country===n&&d.lat!=null&&d.lng!=null);
  const groups={};list.forEach(d=>{const k=d.lat.toFixed(4)+','+d.lng.toFixed(4);(groups[k]=groups[k]||[]).push(d)});
  const pts=[];
- Object.values(groups).forEach(g=>{const m=L.marker([g[0].lat,g[0].lng],{icon:pinIcon(g.length)}).addTo(pinLayer);
+ Object.values(groups).forEach(g=>{const disclosed=g.some(d=>d.mw!=null);
+  const m=L.marker([g[0].lat,g[0].lng],{icon:pinIcon(g.length,disclosed),zIndexOffset:disclosed?1000:0}).addTo(pinLayer);
   m.on('click',()=>g.length>1?showList(g):showCard(g[0]));pts.push([g[0].lat,g[0].lng])});
  if(pts.length)map.fitBounds(L.latLngBounds(pts).pad(0.5),{maxZoom:10});
  const mw=list.reduce((s,d)=>s+(d.mw||0),0);
@@ -115,7 +129,7 @@ function closeOv(){ov.style.display='none';ov.innerHTML=''}
 ov.addEventListener('click',e=>{if(e.target===ov)closeOv()});
 
 function showCard(d){
- const mw=d.mw!=null?`<b>${d.mw.toLocaleString(undefined,{maximumFractionDigits:2})} MW</b>`:'Not disclosed';
+ const mw=d.mw!=null?`<b style="color:${RED}">${d.mw.toLocaleString(undefined,{maximumFractionDigits:2})} MW</b>`:'Not disclosed';
  const src=d.src?`<a href="${esc(d.src)}" target="_blank" rel="noopener">Open source ↗</a>`:'—';
  openOv(d.country,`<h2>${esc(d.name)}</h2>
   <div class="row">Location: <b>${esc(d.loc)}</b></div>
@@ -125,7 +139,7 @@ function showCard(d){
   ${d.user?`<button class="btn ghost" onclick="delUser('${d.id}')">Delete this entry</button>`:''}`)}
 
 function showList(g){window._g=g;
- openOv(`${g[0].loc} · ${g.length} sites`,`<h2>Select a data center</h2>`+g.map((d,i)=>`<button class="item" onclick="showCard(window._g[${i}])">${esc(d.name)}${d.mw!=null?` — <b>${d.mw.toLocaleString()} MW</b>`:''}</button>`).join(''))}
+ openOv(`${g[0].loc} · ${g.length} sites`,`<h2>Select a data center</h2>`+g.map((d,i)=>`<button class="item" onclick="showCard(window._g[${i}])"><span class="dot" style="background:${d.mw!=null?RED:NAVY}"></span><span>${esc(d.name)}${d.mw!=null?` — <b>${d.mw.toLocaleString()} MW</b>`:''}</span></button>`).join(''))}
 
 function delUser(id){user=user.filter(d=>d.id!==id);save();closeOv();buildChips();selected?selectCountry(selected):restyle()}
 
